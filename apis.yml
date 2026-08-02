@@ -1,8 +1,24 @@
 aid: zend
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/zend.png
 name: Zend
-description: 'Zend is a company surfaced as a portfolio company of sapphire-ventures and added to the
-  API Evangelist network as a stub for enrichment. Sector: infrastructure. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Zend is the enterprise PHP platform business of Perforce Software, providing production-grade
+  PHP runtimes, tooling, and long-term support for mission-critical applications. Its portfolio spans
+  ZendPHP (a hardened, enterprise-supported PHP runtime with LTS builds for end-of-life PHP versions),
+  ZendHQ (PHP application observability and monitoring), Zend Server, Zend Studio, and Zend Guard, along
+  with migration, modernization, performance auditing, and Black Belt support services for Laravel, Symfony,
+  CodeIgniter, and CakePHP teams. Zend ships product tooling and a documentation surface rather than a
+  public REST API.'
 url: https://raw.githubusercontent.com/api-evangelist/zend/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +28,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Infrastructure
+- PHP
+- Developer Tools
+- Runtime
+- Observability
+- Enterprise Software
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +46,28 @@ maintainers:
 common:
 - type: Website
   url: https://www.zend.com/
+- type: Documentation
+  url: https://help.zend.com/
+- type: Support
+  url: https://www.zend.com/support
+- type: Blog
+  url: https://www.zend.com/blog
+- type: Pricing
+  url: https://www.zend.com/pricing
+- type: SignUp
+  url: https://www.zend.com/products/zendphp-enterprise/trial
+- type: TermsOfService
+  url: https://www.perforce.com/terms-use
+- type: PrivacyPolicy
+  url: https://www.zend.com/privacy-policy
+- type: GitHubOrganization
+  url: https://github.com/zendtech
+- type: LLMsTxt
+  url: llms/zend-llms.txt
+- type: DomainSecurity
+  url: security/zend-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 2
+  pass: local-v1
